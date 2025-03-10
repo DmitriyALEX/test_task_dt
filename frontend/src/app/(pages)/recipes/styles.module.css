@@ -1,0 +1,52 @@
+.filter_container {
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.filter_container > select {
+    margin: 20px 16px 10px 16px;
+}
+
+.title_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 32px 0 32px 0;
+}
+
+.meal_container {
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 4px;
+    margin: 0 16px 32px 16px;
+}
+
+.meal_item {
+    border: 2px solid rgb(126, 125, 125);
+    border-radius: 4px;
+    background-color: rgb(237, 235, 235);
+    margin: 16px;
+    padding: 16px;
+}
+
+.meal_title {
+    margin: 8px 0 8px 0;
+    font-size: 25px;
+}
+
+.link_container {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.link_container:active,
+.link_container:visited,
+.link_container:hover {
+    text-decoration: none;
+}
+
+.meal_category_area {
+    margin: 8px 0 8px 0;
+    font-size: 18px;
+}
