@@ -54,6 +54,8 @@ export const useFetchRecepies = () => {
 
         if (queryString) {
             url = `${`${url}/recipes`}?${queryString}`
+        } else {
+            url = `${url}/recipes`
         }
 
         if (url) {
